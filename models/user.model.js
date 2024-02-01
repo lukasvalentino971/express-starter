@@ -28,6 +28,12 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
             field: 'updated_at',
             defaultValue: DataTypes.NOW
+        },
+        updated_at: {
+            type: DataTypes.DATE,
+            allowNull: false,
+            field: 'updated_at',
+            defaultValue: DataTypes.NOW
         }
     }, {
         tableName: 'users',
